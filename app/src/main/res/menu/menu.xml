@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/compartir"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="Compartir"
+        android:orderInCategory="90"
+        app:showAsAction="never" />
+
+
+    <item android:id="@+id/frontal"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="Usar Cámara Frontal"
+        android:orderInCategory="91"
+        app:showAsAction="never" />
+    <item android:id="@+id/posterior"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="Usar Cámara Posterior"
+        android:orderInCategory="93"
+        app:showAsAction="never" />
+    <item android:id="@+id/reportar_error"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="Reportar Error"
+        android:orderInCategory="94"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/salir"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="Salir"
+        android:orderInCategory="99"
+        app:showAsAction="never" />
+
+</menu>
